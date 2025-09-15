@@ -1,0 +1,24 @@
+{
+  "name": "proyecto_front",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js -c src/test/cucumber.json",
+    "test:cucumber": "cucumber-js --config src/test/cucumber.json",
+    "report": "node scripts/generate-report.js",
+    "test:report": "npm run test:cucumber && npm run report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@cucumber/cucumber": "^12.2.0",
+    "@cucumber/html-formatter": "^21.15.1",
+    "@playwright/test": "^1.55.0",
+    "@types/node": "^24.3.3",
+    "multiple-cucumber-html-reporter": "^3.9.3",
+    "ts-node": "^10.9.2"
+  }
+}

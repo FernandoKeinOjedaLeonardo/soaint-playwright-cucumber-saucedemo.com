@@ -1,0 +1,139 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "usuario-ingresa-al-sistema;usuario-ingresa-con-credenciales-validas",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Usuario ingresa con credenciales validas",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "El usuario esta en la pagina de login",
+            "match": {
+              "location": "file:\\C:\\Users\\USUARIO\\Documents\\Proyectos_Visual\\Proyecto_Front\\src\\test\\steps\\loginSteps.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1258421900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "El usuario ingresa su \"standard_user\" y \"secret_sauce\"",
+            "match": {
+              "location": "file:\\C:\\Users\\USUARIO\\Documents\\Proyectos_Visual\\Proyecto_Front\\src\\test\\steps\\loginSteps.ts:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 49175099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "El usuario hace clic en el boton de Login",
+            "match": {
+              "location": "file:\\C:\\Users\\USUARIO\\Documents\\Proyectos_Visual\\Proyecto_Front\\src\\test\\steps\\loginSteps.ts:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 73087600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "El usuario deberia ingresar al sistema",
+            "match": {
+              "location": "file:\\C:\\Users\\USUARIO\\Documents\\Proyectos_Visual\\Proyecto_Front\\src\\test\\steps\\loginSteps.ts:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 165851000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "usuario-ingresa-al-sistema;usuario-ingresa-con-credenciales-invalidas",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Usuario ingresa con credenciales invalidas",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "El usuario esta en la pagina de login",
+            "match": {
+              "location": "file:\\C:\\Users\\USUARIO\\Documents\\Proyectos_Visual\\Proyecto_Front\\src\\test\\steps\\loginSteps.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1057592800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "El usuario ingresa su \"locked_out_user\" y \"secret_sauce\"",
+            "match": {
+              "location": "file:\\C:\\Users\\USUARIO\\Documents\\Proyectos_Visual\\Proyecto_Front\\src\\test\\steps\\loginSteps.ts:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 52207100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "El usuario hace clic en el boton de Login",
+            "match": {
+              "location": "file:\\C:\\Users\\USUARIO\\Documents\\Proyectos_Visual\\Proyecto_Front\\src\\test\\steps\\loginSteps.ts:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 58233900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "El usuario deberia ver el mensaje de error",
+            "match": {
+              "location": "file:\\C:\\Users\\USUARIO\\Documents\\Proyectos_Visual\\Proyecto_Front\\src\\test\\steps\\loginSteps.ts:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 153475500
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "usuario-ingresa-al-sistema",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Usuario ingresa al sistema",
+    "tags": [],
+    "uri": "src\\test\\features\\login.feature"
+  }
+]
